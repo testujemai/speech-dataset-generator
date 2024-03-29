@@ -94,9 +94,6 @@ pip install -r requirements.txt
 or
 
 pip install -e .
-
-# Finally install pytorch 2.1.1 with your current cuda version. For example:
-pip install --upgrade torch==2.1.1 torchaudio torchvision --extra-index-url https://download.pytorch.org/whl/cu121
 ```
 
 

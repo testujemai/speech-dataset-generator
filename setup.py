@@ -28,8 +28,7 @@ setup(
         'speechbrain==0.5.16',
         'mayavoz @ git+https://github.com/davidmartinrius/mayavoz.git',
         'bs4==0.0.2',
-        'numpy==1.24',
-        'tensorflow[and-cuda]<=2.16.1',
+        'numpy==1.24',        
     ],
     entry_points={
         'console_scripts': [
