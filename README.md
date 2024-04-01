@@ -94,6 +94,9 @@ pip install -r requirements.txt
 or
 
 pip install -e .
+
+#If you are going to use this program outside of this project folder do this:
+export PYTHONPATH=/path/to/your/speech-dataset-generator:$PYTHONPATH
 ```
 
 
