@@ -322,7 +322,7 @@ docker run -p 4000:80 -e HF_TOKEN=your_hf_token \
 
 ## Add age classification and new gender classification
 
-- [ ] https://github.com/Anvarjon/Age-Gender-Classification
+- [X] https://github.com/Anvarjon/Age-Gender-Classification Finally, this won't be integrated as it is too imprecise and only works well with the trained dataset, but not with unseen samples.
 
 ## Emotion regognition
 
