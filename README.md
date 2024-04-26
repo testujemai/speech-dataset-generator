@@ -134,7 +134,7 @@ python speech_dataset_generator/main.py --input_file_path <path_to_audio_file> -
 
 - `--output_directory`: Output directory for audio files.
 
-- `--range_times`: Specify a range of two integers in the format "start-end". Default is 4-10.
+- `--range_times`: Specify a range of two integers in the format "start-end". Default is 4-10. Clarification: in the first instance, the ranges are determined by WhisperX. Therefore you cannot modify them, but when using this parameter you can narrow and filter the ranges.
 
 - `--enhancers`: You can use audio enhancers: --enhancers deepfilternet resembleai mayavoz. Will be executed in the order you write it. By default no enhancer is set. By now deepfilternet gives the best results when enhancing and denoising an audio. 
 
