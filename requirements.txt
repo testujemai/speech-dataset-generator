@@ -1,6 +1,6 @@
 setuptools==65
 git+https://github.com/testujemai/whisperX.git
-faster-whisper==0.10.1
+faster-whisper==1.0.0
 pydub==0.25.1
 python-dotenv==1.0.1
 inaSpeechSegmenter==0.7.8
