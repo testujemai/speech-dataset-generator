@@ -28,7 +28,7 @@ import csv
 load_dotenv()
 
 # Access the HF_TOKEN environment variable
-HF_TOKEN = os.environ.get("HF_TOKEN")
+HF_TOKEN = "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"
 
 # If HF_TOKEN is not set, try getting it from the OS environment
 if HF_TOKEN is None:
